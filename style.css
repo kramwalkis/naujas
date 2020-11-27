@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+    align-content: center;
+    height: 700px;
+    background-color: rgb(253, 227, 227);
+    padding: 5px;
+    width: 700px;
+    border: 3px solid darkgoldenrod;
+    border-radius: 10px;
+}
+
+#container img {
+    
+    height: 100px;
+    width: 100px;    
+    display: none; 
+    pointer-events: none;
+    
+
+    
+}
+
+#container div {
+    background-color:  darkgoldenrod;
+    margin: 3px;
+    height: 100px;
+    width: 100px;
+    padding: 1px;
+    cursor: pointer;
+    
+}
+
+.perfect {
+    display: block !important; 
+}
+
+#playAgain {
+    background-color: darkorange;
+    color: darkturquoise;
+    font-size: 25px;
+    padding: 3px;
+    width: 150px;
+    text-align: center;
+    margin: 3px;
+    border: 3px solid greenyellow;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.hey {
+    pointer-events: none; 
+}
+
+
